@@ -65,7 +65,7 @@ img.signupstep
     border-style: none;
 	border-color: -moz-use-text-color;
 	border-width: 0px;
-background-image: url('../../images/signup-input-background.jpg');
+background-image: url('/images/user/signup-input-background.jpg');
     	background-repeat: no-repeat;
     	background-attachment: scroll;
     	background-x-position: 0%;
@@ -83,7 +83,7 @@ a.signup-check
     display: block;
     width: 56px;
     height: 52px;
-    background: url(../../images/signup-check.jpg) 0 0 no-repeat;
+    background: url(/images/user/signup-check.jpg) 0 0 no-repeat;
     text-decoration: none;
 }
 a:hover.signup-check
@@ -105,7 +105,7 @@ a:hover.signinerror-link
 {
     position: relative;
     left: 13px;
-    background-image: url('../../images/signup-background.jpg' );
+    background-image: url('/images/user/signup-background.jpg' );
     height: 462px;
     width: 886px;
 }
@@ -113,7 +113,7 @@ a:hover.signinerror-link
 {
     position: relative;
     left: 13px;
-    background-image: url('../../images/signup-congratbackground.jpg' );
+    background-image: url('/images/user/signup-congratbackground.jpg' );
     height: 462px;
     width: 886px;
 }
@@ -337,7 +337,7 @@ a:hover.signinerror-link
 }
 .signup-button1
 {
-    background-image: url(../../images/signup-button.png);
+    background-image: url(/images/user/signup-button.png);
     background-repeat: no-repeat;
     position: relative;
     left: 150px;
@@ -349,7 +349,7 @@ a:hover.signinerror-link
 
 .signup-btnimage
 {
-	background-image: url(../../images/signup-button.png);
+	background-image: url(/images/user/signup-button.png);
     background-repeat: no-repeat;
     height: 55px;
     
@@ -361,7 +361,7 @@ a:hover.signinerror-link
 }
 .signup-button
 {
-    background-image: url(../../images/signup-button.png);
+    background-image: url(/images/user/signup-button.png);
     background-repeat: no-repeat;
     position: absolute;
     height:55px;
@@ -381,7 +381,7 @@ a:hover.signinerror-link
 }
 .signup-button:hover
 {
-	background-image: url(../../images/signup-button.jpg);
+	background-image: url(/images/user/signup-button.jpg);
     background-repeat: no-repeat;
     position: absolute;
     height:55px;
@@ -419,7 +419,7 @@ a:hover.signinerror-link
 } 
 .signup-button2
 {
-    background-image: url(../../images/signup-check.jpg);
+    background-image: url(/images/user/signup-check.jpg);
     background-repeat: no-repeat;
     position: relative;
     left: 150px;
@@ -431,7 +431,7 @@ a:hover.signinerror-link
 }
 .signup-button3
 {
-    background-image: url(../../images/signup-check.jpg);
+    background-image: url(/images/user/signup-check.jpg);
     background-repeat: no-repeat;
     position: relative;
     left: 150px;
@@ -443,7 +443,7 @@ a:hover.signinerror-link
 }
 #signup-congratbutton
 {
-    background-image: url('../../images/signup-button.gif' );
+    background-image: url('/images/user/signup-button.gif' );
     background-repeat: no-repeat;
     position: absolute;
     left: 125px;
@@ -455,7 +455,7 @@ a:hover.signinerror-link
 }
 #signup-introbutton
 {
-    background-image: url('../../images/signup-button.gif' );
+    background-image: url('/images/user/signup-button.gif' );
     background-repeat: no-repeat;
     position: absolute;
     left: 200px;
@@ -547,14 +547,14 @@ a:hover.signinerror-link
 .signin-button
 {
 	display: block;
-	background: url('../../images/signup-button.gif');
+	background: url('/images/user/signup-button.gif');
 	text-decoration: none;
 }
 #signin-main
 {
     position: relative;
     left: 13px;
-    background-image: url('../../images/signup-background.jpg' );
+    background-image: url('/images/user/signup-background.jpg' );
     height: 462px;
     width: 886px;
 }
@@ -563,7 +563,7 @@ a:hover.signinerror-link
     display: block;
     width: 56px;
     height: 52px;
-    background: url('../../images/activation-check.gif') 0 0 no-repeat;
+    background: url('/images/user/activation-check.gif') 0 0 no-repeat;
     text-decoration: none;
 }
 .signin-check-hover
@@ -571,7 +571,7 @@ a:hover.signinerror-link
     display: block;
     width: 56px;
     height: 52px;
-    background: url('../../images/activation-check.gif') 0 0 no-repeat;
+    background: url('/images/user/activation-check.gif') 0 0 no-repeat;
     text-decoration: none;
     background-position: -56px 0;
 }
@@ -622,7 +622,6 @@ li
         {
             font-family: Arial;
             margin-top: -36px; 
-            #margin-top:-40px;
             width:100px;
             text-align:center;
             font-size:small;
@@ -633,7 +632,6 @@ li
             font-weight: bold;
             font-size: 18px;
             margin-top: -40px; 
-            #margin-top:-45px;
             width:80px;
             text-align:center;
           }
@@ -643,7 +641,6 @@ li
             font-weight: bold;
             font-size: 18px;
             margin-top: -50px; 
-            #margin-top:-50px;
             width:80px;
             text-align:center;
           }
@@ -651,7 +648,6 @@ li
         { 
             font-family: Arial;
             margin-top: -36px; 
-            #margin-top:-40px;
             width:95px;
             height: 33px;
             text-align:center;
@@ -660,23 +656,18 @@ li
         .forgotButtonAlign
         {
             margin-top: 15px; 
-            #margin-top:0px;
         }
         .joinButtonAlign
         {
             margin-top: 15px;
-            #margin-top: 0px;
-
         }
         .loginButtonAlign
         {
 			margin-top:  0px;
-			#margin-top: 0px;
         }
         .loginButtonAlignLoc
         {
 			margin-top: 15px;
-			#margin-top: 5px;
         }
         .joinLink
         {
